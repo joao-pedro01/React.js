@@ -7,8 +7,6 @@ function App() {
     <div className='App'>
       <Form />
       <Evento />
-      <Evento numero={1}/>
-      <Evento numero={2}/>
     </div>
   );
 }
