@@ -1,11 +1,14 @@
 import './App.css';
-import Condicional from './components/Condicional';
+import Lista from './components/Lista';
 
 function App() {
+  const meusItens = ['React', 'Vue', 'Angular'];
+
+
   return (
     <div className='App'>
-      <h1>Rendenização condicional</h1>
-      <Condicional />
+      <h1>Rendenização de listas</h1>
+      <Lista itens={meusItens} />
     </div>
   );
 }
